@@ -110,7 +110,7 @@ body{
   position: relative;
 }
 .card-hover:hover:before {
-  background-color: #6d0202;
+  background-color: #3d166c;
   opacity: .8;
 }
 .card-hover:hover .info {
@@ -163,20 +163,20 @@ body{
   border: none;
   border-radius: 3px;
   background: #b8d03a;
-  color: #6d0202;
+  color: #3d166c;
   font-weight: bold;
   cursor: pointer;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 .card-hover .info a:hover {
-  background: #6d0202;
+  background: #3d166c;
   color: white;
 }
 /* End of card effect */
 
 .vantagens h2{
-  color:#6d0202;
+  color:#3d166c;
 }
 
 .descubra{
@@ -193,7 +193,7 @@ body{
 }
 
 .descubra-titulo{
-  background-color:#6d0202;
+  background-color:#3d166c;
 }
 
 .descubra .top{
@@ -239,20 +239,20 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .locais h3{
   font-weight: bold;
   font-style: italic;
   font-size: 22pt;
-  color: #6d0202;
+  color: #3d166c;
   margin-bottom:0;
 }
 
 .locais h4{
   font-style: italic;
-  color:#6d0202;
+  color:#3d166c;
   font-size: 16pt;
 }
 
@@ -265,7 +265,7 @@ body{
 }
 
 footer{
-  background-color: #6d0202;
+  background-color: #3d166c;
 }
 
 .logo-rodape img{
@@ -284,7 +284,7 @@ footer{
 }
 
 .title{
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .body-sobre{
@@ -293,7 +293,7 @@ footer{
 }
 
 .cta-sobre h3{
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .cta-sobre strong{
@@ -317,7 +317,7 @@ footer{
 #carousel-cdn h1{
   font-weight: bold;
   font-style: italic;
-  color: #6d0202;
+  color: #3d166c;
   font-size: 140pt;
   margin-bottom: -50px;
   line-height:0;
@@ -350,14 +350,14 @@ footer{
 }
 
 .box-texto h2{
-  color: #6d0202;
+  color: #3d166c;
   font-weight: bold;
   margin-top:-40px;
   text-shadow: 0 0 15px white, 0 0 15px white, 0 0 15px white,0 0 15px white, 0 0 15px white;
 }
 
 .box-texto{
-  border: 2px solid #6d0202;
+  border: 2px solid #3d166c;
   border-radius:35px;
   padding:25px;
   height: min-content;
@@ -365,13 +365,13 @@ footer{
 
 #rede h3{
   font-weight: bold;
-  color: #6d0202;
+  color: #3d166c;
   font-size: 24pt;
   font-style: italic;
 }
 
 .vantagens-planos{
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .vantagens-planos h2{
@@ -392,12 +392,12 @@ footer{
 }
 
 .planos{
-  background-color: #6d0202;
+  background-color: #3d166c;
 }
 
 .planos .titulo{
   font-size:60pt;
-  color: #6d0202;
+  color: #3d166c;
   font-weight: bold;
   margin-bottom:0;
   line-height: 1;
@@ -405,7 +405,7 @@ footer{
 
 .planos .titulo_2{
   font-size:50pt;
-  color: #6d0202;
+  color: #3d166c;
   font-weight: bold;
   margin-bottom:0;
   line-height: 1;
@@ -461,12 +461,12 @@ footer{
 .btn-area-cliente{
   background-color: #b8d03a;
   border-color: #b8d03a;
-  color: #6d0202;
+  color: #3d166c;
   height:140px;
 }
 
 .btn-area-cliente:hover{
-  background-color: #6d0202;
+  background-color: #3d166c;
 }
 
 .btn-area-cliente:hover img{
@@ -508,11 +508,11 @@ footer{
 
 .botao-noggin a{
   font-weight: bold;
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .botao-noggin a:hover{
-  background-color: #6d0202 !important;
+  background-color: #3d166c !important;
   color:white !important;
 }
 
@@ -566,7 +566,7 @@ footer{
 }
 
 .muito-mais .back-span{
-  color: #6d0202;
+  color: #3d166c;
   opacity: .4;
   font-weight:bold;
   font-style: italic;
@@ -577,7 +577,7 @@ footer{
 }
 
 .muito-mais span{
-  color: #6d0202;
+  color: #3d166c;
   font-size:60pt;
   font-weight:bold;
   font-style: italic;
@@ -593,7 +593,7 @@ footer{
 
 .texto-fibra h2{
   font-size:3rem;
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .texto-fibra h3{
@@ -603,7 +603,7 @@ footer{
 }
 
 .texto-fibra h4, h5, h6{
-  color:#6d0202;
+  color:#3d166c;
   line-height:1;
 }
 
@@ -628,8 +628,8 @@ footer{
 }
 
 .card-fibra{
-  border-bottom:1px solid #6d0202;
-  border-left:1px solid #6d0202;
+  border-bottom:1px solid #3d166c;
+  border-left:1px solid #3d166c;
 }
 
 .titulo-fibra-transmissao h2{
@@ -637,7 +637,7 @@ footer{
 }
 
 .vantagens-item{
-  background-color:#6d0202;
+  background-color:#3d166c;
   border-radius:24px;
 }
 
@@ -685,7 +685,7 @@ footer{
 }
 
 .botao-slider{
-  color:#6d0202;
+  color:#3d166c;
 }
 
 .botao-slider-preco{
@@ -698,15 +698,15 @@ footer{
 }
 
 .barreiras strong, .barreiras b{
-  color:#6d0202;
+  color:#3d166c;
 }
 
 .texto-watch b, .texto-watch h2{
-  color: #6d0202;
+  color: #3d166c;
 }
 
 .precos-slider .preco{
-  color:#6d0202;
+  color:#3d166c;
 }
 
 .home-slider {
