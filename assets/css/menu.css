@@ -52,8 +52,7 @@ width:100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #05050502;/*
-  z-index: 1;*/
+  background: #05050502;
 }
 #menu {
   display: flex;

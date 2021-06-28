@@ -34,6 +34,23 @@ body{
   padding-right: 5em;
 }
 
+#logo {
+  width: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.header {
+  width:100%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3d166c;
+}
 #ligamos-pra-voce{
   position: relative;
   border: solid 2px #afd11d;
@@ -51,31 +68,6 @@ body{
   color:#3d166c !important;
 }
 
-.navbar-brand{
-  background-color: #3d166c;
-  color: #b8d03a;
-  margin-left: 5em;
-  margin-right: 5em;
-}
-
-.navbar-brand{
-  padding:.5rem;
-}
-
-.navbar-brand img{
-  height:80px;
-}
-
-.navbar .nav-link{
-  color: white;
-  font-size:14pt;
-  font-style: italic;
-}
-
-.navbar .nav-link:hover{
-  color: #b8d03a;
-  font-weight: bold;
-}
 
 .overlay-area-cliente {
   position: absolute;
