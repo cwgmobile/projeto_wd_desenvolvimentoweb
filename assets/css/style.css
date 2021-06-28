@@ -23,32 +23,27 @@
   #3d166c = roxo
   #b8d03a = verde
 */
+
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  font-family: "Clab", sans-serif;/*
+  font-family: "Clab", sans-serif;
   padding-left: 5em;
-  padding-right: 5em;*/
+  padding-right: 5em;
 }
 
-.navbar .navbar{
-  background-color: #3d166c;
-  color: #b8d03a;
-  display: flex;
-  align-items: center;
-  justify-content: center;/*
-  margin-left: 5em;
-  margin-right: 5em;*/
-}
 #ligamos-pra-voce{
   position: relative;
+  border: solid 2px #afd11d;
   background-clip: border-box;
   background-color: #3d166c;
   padding: 4px;
   padding-left: 0px;
   border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 #ligamos-pra-voce a:hover{
@@ -57,26 +52,39 @@ body{
 }
 
 .navbar-brand{
+  background-color: #3d166c;
+  color: #b8d03a;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.navbar-brand{
   padding:.5rem;
-  padding-left: 5em;
-  padding-right: 5em;
 }
+
 .navbar-brand img{
-  height:60px;
+  height:80px;
 }
+
 .navbar .nav-link{
   color: white;
   font-size:14pt;
   font-style: italic;
 }
+
 .navbar .nav-link:hover{
   color: #b8d03a;
   font-weight: bold;
 }
+
 .overlay-area-cliente {
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #b8d03a;
@@ -84,19 +92,15 @@ body{
 
 .area-cliente-botao {
   position: relative;
-  padding: 0;
-  margin: 0;
-
 }
 
 .area-cliente-botao:hover .overlay-area-cliente {
   opacity: .7;
 }
+
 .first_div{
-  margin-left:0;
-  margin-right: 0;
-  max-width: 100%;
-  padding-top:25px;
+  padding-top:20px;
+  
 }
 
 /* Card effect */
@@ -262,18 +266,12 @@ body{
 }
 
 footer{
-  margin-top: 100px;
   background-color: #3d166c;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width:100%;
-  height:350px ;
 }
 
 .logo-rodape img{
-  height:80px;
+  width:400px;
+  max-width: 100%;
 }
 
 .links a{
@@ -728,4 +726,17 @@ footer{
 .card-shadow{
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.1);
   border:none;
+}
+.rodape{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#3d166c ;
+}
+.logo-rodape-nowtech{
+  width: 250px;
+  height: 80px;
+
 }

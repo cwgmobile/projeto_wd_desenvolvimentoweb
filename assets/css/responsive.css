@@ -18,7 +18,14 @@
   .navbar-brand img{
     height:60px;
   }
-
+  
+  #ligamos-pra-voce{
+    display: none;
+  }
+  .area-cliente-botao {
+    display: none;
+  
+  }
   .first_div{
     padding-top:65px;
   }
@@ -348,13 +355,17 @@
     margin-bottom: -10px;
   }
   
+  #logo {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
   #menu {
     display: block;
     position: absolute;
     width: 100%;
     top: 75px;
     right: 0px;
-    background: #3d166cb4;
+    background: #3d166cc2;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -413,5 +424,6 @@
   .header {
     background: #3d166c;
   }
+ 
 }
 
