@@ -62,13 +62,10 @@ body{
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-
 #ligamos-pra-voce a:hover{
   text-decoration: none;
   color:#3d166c !important;
 }
-
-
 .overlay-area-cliente {
   position: absolute;
   top: 0;
@@ -89,10 +86,8 @@ body{
 .area-cliente-botao:hover .overlay-area-cliente {
   opacity: .7;
 }
-
 .first_div{
   padding-top:20px;
-  
 }
 
 /* Card effect */
